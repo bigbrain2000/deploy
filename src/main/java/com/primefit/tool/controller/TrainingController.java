@@ -26,6 +26,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/trainings")
 @AllArgsConstructor
+@CrossOrigin("http://0.0.0.0:4200/")
 public class TrainingController {
 
     private TrainingService trainingService;

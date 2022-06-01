@@ -23,7 +23,7 @@ import java.util.Set;
 @AllArgsConstructor
 @RestController
 @RequestMapping("/users")
-@CrossOrigin("http://localhost:4200/")
+@CrossOrigin("http://0.0.0.0:4200/")
 public class UserController {
 
     private UserService userService;

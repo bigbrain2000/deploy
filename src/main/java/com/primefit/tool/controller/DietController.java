@@ -28,6 +28,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/diets")
 @AllArgsConstructor
+@CrossOrigin("http://0.0.0.0:4200/")
 public class DietController {
 
     private DietService dietService;
